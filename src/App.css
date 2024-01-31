@@ -12,3 +12,17 @@
 .tooltip p {
   font-size: 10px;
 }
+
+.category-btn{
+  position: fixed;
+  top: 40px;
+  left:40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 100;
+}
+
+.no-touch-action {
+  touch-action: none;
+}
